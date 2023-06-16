@@ -204,9 +204,26 @@ function onIdCardInput(e) {
 .form-home {
   background-color: #fff;
 }
-.form-label {
-  font-weight: 800;
-  font-size: 18px;
+
+@media (max-width: 600px) {
+  .form-label {
+    font-weight: 800;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .form-label {
+    font-weight: 800;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .form-label {
+    font-weight: 800;
+    font-size: 20px;
+  }
 }
 .button-clear {
   background-color: #ff0000;

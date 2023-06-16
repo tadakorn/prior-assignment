@@ -73,14 +73,30 @@ function homeForm() {
       ><span> เนื่องจาก{{ errorMessage }}</span>
     </div>
   </div>
-  <div class="text-end pt-1">
+  <div class="text-end pt-4 info">
     <button type="button" class="btn btn-secondary shadow" @click="homeForm">ย้อนกลับ</button>
   </div>
 </template>
 
 <style scoped>
-.info {
-  font-weight: 800;
-  font-size: 18px;
+@media (max-width: 600px) {
+  .info {
+    font-weight: 800;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .info {
+    font-weight: 800;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .info {
+    font-weight: 800;
+    font-size: 20px;
+  }
 }
 </style>
