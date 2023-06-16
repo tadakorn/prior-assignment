@@ -178,8 +178,8 @@ function onIdCardInput(e) {
 <style scoped>
 @media (max-width: 600px) {
   .title {
-    font-size: 22px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 800;
     text-align: center;
   }
 }
@@ -187,7 +187,7 @@ function onIdCardInput(e) {
 /* Media query for devices with a minimum width of 601px and maximum width of 1200px */
 @media (min-width: 601px) and (max-width: 1200px) {
   .title {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
     text-align: center;
   }
