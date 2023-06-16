@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Prompt:wght@200&display=swap');
+body {
+  background-color: #f6f9ff !important;
+}
+#app {
+  font-family: 'Prompt', sans-serif;
+}
